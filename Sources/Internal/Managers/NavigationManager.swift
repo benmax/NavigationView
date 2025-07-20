@@ -87,5 +87,5 @@ private extension [AnyNavigatableView] {
     }
 }
 private extension [AnyNavigatableView] {
-    func canBeInserted(_ view: any NavigatableView) -> Bool { !contains(where: { $0.id == view.id }) }
+    func canBeInserted(_ view: any NavigatableView) -> Bool { true }
 }
